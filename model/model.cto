@@ -1,0 +1,33 @@
+namespace org.accordproject.payment.milestone
+
+import org.accordproject.cicero.contract.* from https://models.accordproject.org/cicero/contract.cto
+import org.accordproject.cicero.runtime.* from https://models.accordproject.org/cicero/runtime.cto
+import org.accordproject.money.MonetaryAmount from https://models.accordproject.org/money.cto
+import org.accordproject.signature.ContractSigned from https://models.accordproject.org/signature/signature.cto
+import org.accordproject.payment.PaymentReceived from https://models.accordproject.org/payment/payment.cto
+
+asset PaymentUponMilestoneState extends AccordContractState {
+  o ContractLifecycleStatus status
+}
+
+enum ContractLifecycleStatus {
+  o INITIALIZED
+  o INVOICE_ONE_EMITTED
+  o INVOICE_TWO_EMITTED
+  o COMPLETED
+}
+
+transaction MilestoneReached {
+  o String milestoneName
+}
+
+/**
+ * The template model
+ */
+asset PaymentUponMilestoneContract extends AccordContract {
+  o AccordParty buyer
+  o AccordParty seller
+  o MonetaryAmount firstInvoiceAmount
+  o MonetaryAmount secondInvoiceAmount
+  o MonetaryAmount thirdInvoiceAmount
+}

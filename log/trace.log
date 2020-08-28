@@ -1,0 +1,2651 @@
+11:25:54 - [32minfo[39m: Using current directory as template folder
+11:25:54 - [34mdebug[39m: loadFileContents
+11:25:54 - [34mdebug[39m: loadFileContents
+11:25:54 - [34mdebug[39m: loadFileContents
+11:25:54 - [34mdebug[39m: fromDirectory
+11:25:54 - [34mdebug[39m: loadFilesContents
+11:25:54 - [34mdebug[39m: loadFilesContents
+11:25:54 - [34mdebug[39m: loadFilesContents
+11:25:54 - [34mdebug[39m: loadFilesContents
+11:25:54 - [34mdebug[39m: loadFilesContents
+11:25:54 - [34mdebug[39m: loadFileContents
+11:25:54 - [34mdebug[39m: fromDirectory
+11:25:54 - [31merror[39m: The template targets Cicero (^0.12.4) but the Cicero version is 0.13.3.
+11:25:54 - [31merror[39m: The template targets Cicero (^0.12.4) but the Cicero version is 0.13.3.
+11:27:07 - [32minfo[39m: Using current directory as template folder
+11:27:07 - [34mdebug[39m: loadFileContents
+11:27:07 - [34mdebug[39m: loadFileContents
+11:27:07 - [34mdebug[39m: loadFileContents
+11:27:07 - [34mdebug[39m: fromDirectory
+11:27:07 - [34mdebug[39m: loadFilesContents
+11:27:07 - [34mdebug[39m: loadFilesContents
+11:27:07 - [34mdebug[39m: loadFilesContents
+11:27:07 - [34mdebug[39m: loadFilesContents
+11:27:07 - [34mdebug[39m: loadFilesContents
+11:27:07 - [34mdebug[39m: loadFileContents
+11:27:07 - [34mdebug[39m: fromDirectory
+11:27:07 - [31merror[39m: The template targets Cicero (^0.12.4) but the Cicero version is 0.13.3.
+11:27:07 - [31merror[39m: The template targets Cicero (^0.12.4) but the Cicero version is 0.13.3.
+11:29:09 - [32minfo[39m: Using current directory as template folder
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:09 - [34mdebug[39m: fromDirectory
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:09 - [34mdebug[39m: fromDirectory
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFilesContents
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:09 - [34mdebug[39m: loadFileContents
+11:29:11 - [34mdebug[39m: fromDirectory
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFileContents
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFilesContents
+11:29:11 - [34mdebug[39m: loadFileContents
+11:29:11 - [34mdebug[39m: buildGrammar
+11:29:11 - [34mdebug[39m: Template AST {"type":"ContractTemplate","data":[{"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1},{"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}},{"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32},{"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}},{"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46},{"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}},{"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85},{"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}},{"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72},{"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}},{"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}]}
+11:29:11 - [34mdebug[39m: element rule0 {"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1}
+11:29:11 - [34mdebug[39m: element rule1 {"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}}
+11:29:11 - [34mdebug[39m: element rule2 {"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32}
+11:29:11 - [34mdebug[39m: element rule3 {"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}}
+11:29:11 - [34mdebug[39m: element rule4 {"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46}
+11:29:11 - [34mdebug[39m: element rule5 {"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}}
+11:29:11 - [34mdebug[39m: element rule6 {"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85}
+11:29:11 - [34mdebug[39m: element rule7 {"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}}
+11:29:11 - [34mdebug[39m: element rule8 {"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72}
+11:29:11 - [34mdebug[39m: element rule9 {"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}}
+11:29:11 - [34mdebug[39m: element rule10 {"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}
+11:29:11 - [34mdebug[39m: Generated template grammar#
+# This grammar is dynamically generated
+#
+
+#
+# Grammar rules from template text
+#
+
+rule -> rule0 rule1 rule2 rule3 rule4 rule5 rule6 rule7 rule8 rule9 rule10 
+{% ([ rule0,rule1,rule2,rule3,rule4,rule5,rule6,rule7,rule8,rule9,rule10 ]) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        contractId : "665ab77e-c224-46ed-aa02-2353707b2087",
+        buyer : rule1,
+        seller : rule3,
+        firstInvoiceAmount : rule5,
+        secondInvoiceAmount : rule7,
+        thirdInvoiceAmount : rule9,
+    };
+}
+%}
+
+
+#
+# Grammar rules from the template data model
+#
+
+rule0 -> "Fees shall be paid by " 
+
+
+rule1 -> AccordParty {% id %} # buyer 
+
+
+rule2 -> " to " 
+
+
+rule3 -> AccordParty {% id %} # seller 
+
+
+rule4 -> " at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement " 
+
+
+rule5 -> MonetaryAmount {% id %} # firstInvoiceAmount 
+
+
+rule6 -> ";\n• Second invoice: 40% at the designs validation " 
+
+
+rule7 -> MonetaryAmount {% id %} # secondInvoiceAmount 
+
+
+rule8 -> ";\n• Final invoice: 30% at the delivery of the project / go live " 
+
+
+rule9 -> MonetaryAmount {% id %} # thirdInvoiceAmount 
+
+
+rule10 -> ";" 
+
+
+AccordContractState -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordContractState",
+        stateId : data[0]
+    };
+}
+%}
+
+
+AccordParty -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordParty",
+        partyId : data[0]
+    };
+}
+%}
+
+
+Request -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Request",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+Response -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Response",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+PaymentObligation -> MonetaryAmount  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.PaymentObligation",
+        amount : data[0],
+        description : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+NotificationObligation -> String  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.NotificationObligation",
+        title : data[0],
+        message : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+Payload -> AccordContract  __  Request  __  AccordContractState:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Payload",
+        contract : data[0],
+        request : data[2],
+        state : data[4]
+    };
+}
+%}
+
+
+Success -> Response  __  AccordContractState  __  Event:+ 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Success",
+        response : data[0],
+        state : data[2],
+        emit : data[4]
+    };
+}
+%}
+
+
+Failure -> ErrorResponse 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Failure",
+        error : data[0]
+    };
+}
+%}
+
+
+CryptoMonetaryAmount -> Double  __  CryptoCurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.CryptoMonetaryAmount",
+        doubleValue : data[0],
+        cryptoCurrencyCode : data[2]
+    };
+}
+%}
+
+
+CryptoCurrencyCode -> "ADA" {% id %} | "BCH" {% id %} | "BTC" {% id %} | "DASH" {% id %} | "EOS" {% id %} | "ETC" {% id %} | "ETH" {% id %} | "LTC" {% id %} | "NEO" {% id %} | "XLM" {% id %} | "XMR" {% id %} | "XRP" {% id %} | "ZEC" {% id %} 
+
+
+MonetaryAmount -> Double  __  CurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.MonetaryAmount",
+        doubleValue : data[0],
+        currencyCode : data[2]
+    };
+}
+%}
+
+
+CurrencyCode -> "AED" {% id %} | "AFN" {% id %} | "ALL" {% id %} | "AMD" {% id %} | "ANG" {% id %} | "AOA" {% id %} | "ARS" {% id %} | "AUD" {% id %} | "AWG" {% id %} | "AZN" {% id %} | "BAM" {% id %} | "BBD" {% id %} | "BDT" {% id %} | "BGN" {% id %} | "BHD" {% id %} | "BIF" {% id %} | "BMD" {% id %} | "BND" {% id %} | "BOB" {% id %} | "BOV" {% id %} | "BRL" {% id %} | "BSD" {% id %} | "BTN" {% id %} | "BWP" {% id %} | "BYN" {% id %} | "BZD" {% id %} | "CAD" {% id %} | "CDF" {% id %} | "CHE" {% id %} | "CHF" {% id %} | "CHW" {% id %} | "CLF" {% id %} | "CLP" {% id %} | "CNY" {% id %} | "COP" {% id %} | "COU" {% id %} | "CRC" {% id %} | "CUC" {% id %} | "CUP" {% id %} | "CVE" {% id %} | "CZK" {% id %} | "DJF" {% id %} | "DKK" {% id %} | "DOP" {% id %} | "DZD" {% id %} | "EGP" {% id %} | "ERN" {% id %} | "ETB" {% id %} | "EUR" {% id %} | "FJD" {% id %} | "FKP" {% id %} | "GBP" {% id %} | "GEL" {% id %} | "GHS" {% id %} | "GIP" {% id %} | "GMD" {% id %} | "GNF" {% id %} | "GTQ" {% id %} | "GYD" {% id %} | "HKD" {% id %} | "HNL" {% id %} | "HRK" {% id %} | "HTG" {% id %} | "HUF" {% id %} | "IDR" {% id %} | "ILS" {% id %} | "INR" {% id %} | "IQD" {% id %} | "IRR" {% id %} | "ISK" {% id %} | "JMD" {% id %} | "JOD" {% id %} | "JPY" {% id %} | "KES" {% id %} | "KGS" {% id %} | "KHR" {% id %} | "KMF" {% id %} | "KPW" {% id %} | "KRW" {% id %} | "KWD" {% id %} | "KYD" {% id %} | "KZT" {% id %} | "LAK" {% id %} | "LBP" {% id %} | "LKR" {% id %} | "LRD" {% id %} | "LSL" {% id %} | "LYD" {% id %} | "MAD" {% id %} | "MDL" {% id %} | "MGA" {% id %} | "MKD" {% id %} | "MMK" {% id %} | "MNT" {% id %} | "MOP" {% id %} | "MRU" {% id %} | "MUR" {% id %} | "MVR" {% id %} | "MWK" {% id %} | "MXN" {% id %} | "MXV" {% id %} | "MYR" {% id %} | "MZN" {% id %} | "NAD" {% id %} | "NGN" {% id %} | "NIO" {% id %} | "NOK" {% id %} | "NPR" {% id %} | "NZD" {% id %} | "OMR" {% id %} | "PAB" {% id %} | "PEN" {% id %} | "PGK" {% id %} | "PHP" {% id %} | "PKR" {% id %} | "PLN" {% id %} | "PYG" {% id %} | "QAR" {% id %} | "RON" {% id %} | "RSD" {% id %} | "RUB" {% id %} | "RWF" {% id %} | "SAR" {% id %} | "SBD" {% id %} | "SCR" {% id %} | "SDG" {% id %} | "SEK" {% id %} | "SGD" {% id %} | "SHP" {% id %} | "SLL" {% id %} | "SOS" {% id %} | "SRD" {% id %} | "SSP" {% id %} | "STN" {% id %} | "SVC" {% id %} | "SYP" {% id %} | "SZL" {% id %} | "THB" {% id %} | "TJS" {% id %} | "TMT" {% id %} | "TND" {% id %} | "TOP" {% id %} | "TRY" {% id %} | "TTD" {% id %} | "TWD" {% id %} | "TZS" {% id %} | "UAH" {% id %} | "UGX" {% id %} | "USD" {% id %} | "USN" {% id %} | "UYI" {% id %} | "UYU" {% id %} | "UZS" {% id %} | "VEF" {% id %} | "VND" {% id %} | "VUV" {% id %} | "WST" {% id %} | "XAF" {% id %} | "XAG" {% id %} | "XAU" {% id %} | "XBA" {% id %} | "XBB" {% id %} | "XBC" {% id %} | "XBD" {% id %} | "XCD" {% id %} | "XDR" {% id %} | "XOF" {% id %} | "XPD" {% id %} | "XPF" {% id %} | "XPT" {% id %} | "XSU" {% id %} | "XTS" {% id %} | "XUA" {% id %} | "XXX" {% id %} | "YER" {% id %} | "ZAR" {% id %} | "ZMW" {% id %} | "ZWL" {% id %} 
+
+
+PaymentReceived -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.PaymentReceived",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+ContractSigned -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.signature.ContractSigned",
+        contract : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneState -> ContractLifecycleStatus  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneState",
+        status : data[0],
+        stateId : data[2]
+    };
+}
+%}
+
+
+ContractLifecycleStatus -> "INITIALIZED" {% id %} | "INVOICE_ONE_EMITTED" {% id %} | "INVOICE_TWO_EMITTED" {% id %} | "COMPLETED" {% id %} 
+
+
+MilestoneReached -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.MilestoneReached",
+        milestoneName : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneContract -> AccordParty  __  AccordParty  __  MonetaryAmount  __  MonetaryAmount  __  MonetaryAmount  __  String  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        buyer : data[0],
+        seller : data[2],
+        firstInvoiceAmount : data[4],
+        secondInvoiceAmount : data[6],
+        thirdInvoiceAmount : data[8],
+        contractId : data[10],
+        parties : data[12]
+    };
+}
+%}
+
+
+
+
+#
+# Grammar: base
+#
+
+@{%
+    function compact(v) {
+        if (Array.isArray(v)) {
+            return v.reduce((a, v) => (v === null || v === undefined || (v && v.length === 0) ) ? a : (a.push(v), a), []);
+        } else {
+            return v;
+        }
+    }
+
+    function flatten(v) {
+        let r;
+        if (Array.isArray(v)) {
+            r = v.reduce((a,v) => (a.push(...((v && Array.isArray(v)) ? flatten(v) : [v])), a), []);
+        } else {
+            r = v;
+        }
+        r = compact(r);
+        return r;
+        }
+%}
+
+NUMBER -> [0-9] 
+{% (d) => {return parseInt(d[0]);}%}
+
+DOUBLE_NUMBER -> NUMBER NUMBER
+{% (d) => {return '' + d[0] + d[1]}%}
+
+Word -> [\S]:*
+{% (d) => {return d[0].join('');}%}
+
+BRACKET_PHRASE -> "[" Word (__ Word):* "]" {% ((d) => {return d[1] + ' ' + flatten(d[2]).join(" ");}) %}
+
+String -> dqstring {% id %}
+Double -> decimal {% id %}
+Integer -> int {% id %}
+Long -> int {% id %}
+Boolean -> "true" {% id %} | "false" {% id %}
+
+# https://github.com/kach/nearley/blob/master/builtin/number.ne
+unsigned_int -> [0-9]:+ {%
+    function(d) {
+        return parseInt(d[0].join(""));
+    }
+%}
+
+int -> ("-"|"+"):? [0-9]:+ {%
+    function(d) {
+        if (d[0]) {
+            return parseInt(d[0][0]+d[1].join(""));
+        } else {
+            return parseInt(d[1].join(""));
+        }
+    }
+%}
+
+unsigned_decimal -> [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            d[0].join("") +
+            (d[1] ? "."+d[1][1].join("") : "")
+        );
+    }
+%}
+
+decimal -> "-":? [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "")
+        );
+    }
+%}
+
+percentage -> decimal "%" {%
+    function(d) {
+        return d[0]/100;
+    }
+%}
+
+jsonfloat -> "-":? [0-9]:+ ("." [0-9]:+):? ([eE] [+-]:? [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "") +
+            (d[3] ? "e" + (d[3][1] || "+") + d[3][2].join("") : "")
+        );
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/string.ne
+# Matches various kinds of string literals
+
+# Double-quoted string
+dqstring -> "\"" dstrchar:* "\"" {% function(d) {return d[1].join(""); } %}
+sqstring -> "'"  sstrchar:* "'"  {% function(d) {return d[1].join(""); } %}
+btstring -> "`"  [^`]:*    "`"  {% function(d) {return d[1].join(""); } %}
+
+dstrchar -> [^\"\n] {% id %}
+    | "\\" strescape {%
+    function(d) {
+        return JSON.parse("\""+d.join("")+"\"");
+    }
+%}
+
+sstrchar -> [^\\'\n] {% id %}
+    | "\\" strescape
+        {% function(d) { return JSON.parse("\""+d.join("")+"\""); } %}
+    | "\\'"
+        {% function(d) {return "'"; } %}
+
+strescape -> ["\\/bfnrt] {% id %}
+    | "u" [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] {%
+    function(d) {
+        return d.join("");
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/whitespace.ne
+_  -> wschar:* {% function(d) {return null;} %}
+__ -> wschar:+ {% function(d) {return null;} %}
+
+wschar -> [ \t\n\v\f] {% id %}
+
+
+
+11:29:11 - [34mdebug[39m: fromDirectory
+11:29:11 - [32minfo[39m: Creating archive: payment-upon-milestone@0.1.6.cta
+11:31:30 - [32minfo[39m: Using current directory as template folder
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:30 - [34mdebug[39m: fromDirectory
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:30 - [34mdebug[39m: fromDirectory
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFilesContents
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:30 - [34mdebug[39m: loadFileContents
+11:31:31 - [34mdebug[39m: fromDirectory
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFileContents
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFilesContents
+11:31:31 - [34mdebug[39m: loadFileContents
+11:31:31 - [34mdebug[39m: buildGrammar
+11:31:31 - [34mdebug[39m: Template AST {"type":"ContractTemplate","data":[{"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1},{"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}},{"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32},{"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}},{"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46},{"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}},{"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85},{"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}},{"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72},{"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}},{"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}]}
+11:31:31 - [34mdebug[39m: element rule0 {"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1}
+11:31:31 - [34mdebug[39m: element rule1 {"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}}
+11:31:31 - [34mdebug[39m: element rule2 {"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32}
+11:31:31 - [34mdebug[39m: element rule3 {"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}}
+11:31:31 - [34mdebug[39m: element rule4 {"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46}
+11:31:31 - [34mdebug[39m: element rule5 {"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}}
+11:31:31 - [34mdebug[39m: element rule6 {"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85}
+11:31:31 - [34mdebug[39m: element rule7 {"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}}
+11:31:31 - [34mdebug[39m: element rule8 {"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72}
+11:31:31 - [34mdebug[39m: element rule9 {"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}}
+11:31:31 - [34mdebug[39m: element rule10 {"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}
+11:31:31 - [34mdebug[39m: Generated template grammar#
+# This grammar is dynamically generated
+#
+
+#
+# Grammar rules from template text
+#
+
+rule -> rule0 rule1 rule2 rule3 rule4 rule5 rule6 rule7 rule8 rule9 rule10 
+{% ([ rule0,rule1,rule2,rule3,rule4,rule5,rule6,rule7,rule8,rule9,rule10 ]) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        contractId : "5b4a4420-230e-4c8e-8bf9-fe0358a8c013",
+        buyer : rule1,
+        seller : rule3,
+        firstInvoiceAmount : rule5,
+        secondInvoiceAmount : rule7,
+        thirdInvoiceAmount : rule9,
+    };
+}
+%}
+
+
+#
+# Grammar rules from the template data model
+#
+
+rule0 -> "Fees shall be paid by " 
+
+
+rule1 -> AccordParty {% id %} # buyer 
+
+
+rule2 -> " to " 
+
+
+rule3 -> AccordParty {% id %} # seller 
+
+
+rule4 -> " at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement " 
+
+
+rule5 -> MonetaryAmount {% id %} # firstInvoiceAmount 
+
+
+rule6 -> ";\n• Second invoice: 40% at the designs validation " 
+
+
+rule7 -> MonetaryAmount {% id %} # secondInvoiceAmount 
+
+
+rule8 -> ";\n• Final invoice: 30% at the delivery of the project / go live " 
+
+
+rule9 -> MonetaryAmount {% id %} # thirdInvoiceAmount 
+
+
+rule10 -> ";" 
+
+
+AccordContractState -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordContractState",
+        stateId : data[0]
+    };
+}
+%}
+
+
+AccordParty -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordParty",
+        partyId : data[0]
+    };
+}
+%}
+
+
+Request -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Request",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+Response -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Response",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+PaymentObligation -> MonetaryAmount  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.PaymentObligation",
+        amount : data[0],
+        description : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+NotificationObligation -> String  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.NotificationObligation",
+        title : data[0],
+        message : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+Payload -> AccordContract  __  Request  __  AccordContractState:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Payload",
+        contract : data[0],
+        request : data[2],
+        state : data[4]
+    };
+}
+%}
+
+
+Success -> Response  __  AccordContractState  __  Event:+ 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Success",
+        response : data[0],
+        state : data[2],
+        emit : data[4]
+    };
+}
+%}
+
+
+Failure -> ErrorResponse 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Failure",
+        error : data[0]
+    };
+}
+%}
+
+
+CryptoMonetaryAmount -> Double  __  CryptoCurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.CryptoMonetaryAmount",
+        doubleValue : data[0],
+        cryptoCurrencyCode : data[2]
+    };
+}
+%}
+
+
+CryptoCurrencyCode -> "ADA" {% id %} | "BCH" {% id %} | "BTC" {% id %} | "DASH" {% id %} | "EOS" {% id %} | "ETC" {% id %} | "ETH" {% id %} | "LTC" {% id %} | "NEO" {% id %} | "XLM" {% id %} | "XMR" {% id %} | "XRP" {% id %} | "ZEC" {% id %} 
+
+
+MonetaryAmount -> Double  __  CurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.MonetaryAmount",
+        doubleValue : data[0],
+        currencyCode : data[2]
+    };
+}
+%}
+
+
+CurrencyCode -> "AED" {% id %} | "AFN" {% id %} | "ALL" {% id %} | "AMD" {% id %} | "ANG" {% id %} | "AOA" {% id %} | "ARS" {% id %} | "AUD" {% id %} | "AWG" {% id %} | "AZN" {% id %} | "BAM" {% id %} | "BBD" {% id %} | "BDT" {% id %} | "BGN" {% id %} | "BHD" {% id %} | "BIF" {% id %} | "BMD" {% id %} | "BND" {% id %} | "BOB" {% id %} | "BOV" {% id %} | "BRL" {% id %} | "BSD" {% id %} | "BTN" {% id %} | "BWP" {% id %} | "BYN" {% id %} | "BZD" {% id %} | "CAD" {% id %} | "CDF" {% id %} | "CHE" {% id %} | "CHF" {% id %} | "CHW" {% id %} | "CLF" {% id %} | "CLP" {% id %} | "CNY" {% id %} | "COP" {% id %} | "COU" {% id %} | "CRC" {% id %} | "CUC" {% id %} | "CUP" {% id %} | "CVE" {% id %} | "CZK" {% id %} | "DJF" {% id %} | "DKK" {% id %} | "DOP" {% id %} | "DZD" {% id %} | "EGP" {% id %} | "ERN" {% id %} | "ETB" {% id %} | "EUR" {% id %} | "FJD" {% id %} | "FKP" {% id %} | "GBP" {% id %} | "GEL" {% id %} | "GHS" {% id %} | "GIP" {% id %} | "GMD" {% id %} | "GNF" {% id %} | "GTQ" {% id %} | "GYD" {% id %} | "HKD" {% id %} | "HNL" {% id %} | "HRK" {% id %} | "HTG" {% id %} | "HUF" {% id %} | "IDR" {% id %} | "ILS" {% id %} | "INR" {% id %} | "IQD" {% id %} | "IRR" {% id %} | "ISK" {% id %} | "JMD" {% id %} | "JOD" {% id %} | "JPY" {% id %} | "KES" {% id %} | "KGS" {% id %} | "KHR" {% id %} | "KMF" {% id %} | "KPW" {% id %} | "KRW" {% id %} | "KWD" {% id %} | "KYD" {% id %} | "KZT" {% id %} | "LAK" {% id %} | "LBP" {% id %} | "LKR" {% id %} | "LRD" {% id %} | "LSL" {% id %} | "LYD" {% id %} | "MAD" {% id %} | "MDL" {% id %} | "MGA" {% id %} | "MKD" {% id %} | "MMK" {% id %} | "MNT" {% id %} | "MOP" {% id %} | "MRU" {% id %} | "MUR" {% id %} | "MVR" {% id %} | "MWK" {% id %} | "MXN" {% id %} | "MXV" {% id %} | "MYR" {% id %} | "MZN" {% id %} | "NAD" {% id %} | "NGN" {% id %} | "NIO" {% id %} | "NOK" {% id %} | "NPR" {% id %} | "NZD" {% id %} | "OMR" {% id %} | "PAB" {% id %} | "PEN" {% id %} | "PGK" {% id %} | "PHP" {% id %} | "PKR" {% id %} | "PLN" {% id %} | "PYG" {% id %} | "QAR" {% id %} | "RON" {% id %} | "RSD" {% id %} | "RUB" {% id %} | "RWF" {% id %} | "SAR" {% id %} | "SBD" {% id %} | "SCR" {% id %} | "SDG" {% id %} | "SEK" {% id %} | "SGD" {% id %} | "SHP" {% id %} | "SLL" {% id %} | "SOS" {% id %} | "SRD" {% id %} | "SSP" {% id %} | "STN" {% id %} | "SVC" {% id %} | "SYP" {% id %} | "SZL" {% id %} | "THB" {% id %} | "TJS" {% id %} | "TMT" {% id %} | "TND" {% id %} | "TOP" {% id %} | "TRY" {% id %} | "TTD" {% id %} | "TWD" {% id %} | "TZS" {% id %} | "UAH" {% id %} | "UGX" {% id %} | "USD" {% id %} | "USN" {% id %} | "UYI" {% id %} | "UYU" {% id %} | "UZS" {% id %} | "VEF" {% id %} | "VND" {% id %} | "VUV" {% id %} | "WST" {% id %} | "XAF" {% id %} | "XAG" {% id %} | "XAU" {% id %} | "XBA" {% id %} | "XBB" {% id %} | "XBC" {% id %} | "XBD" {% id %} | "XCD" {% id %} | "XDR" {% id %} | "XOF" {% id %} | "XPD" {% id %} | "XPF" {% id %} | "XPT" {% id %} | "XSU" {% id %} | "XTS" {% id %} | "XUA" {% id %} | "XXX" {% id %} | "YER" {% id %} | "ZAR" {% id %} | "ZMW" {% id %} | "ZWL" {% id %} 
+
+
+PaymentReceived -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.PaymentReceived",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+ContractSigned -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.signature.ContractSigned",
+        contract : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneState -> ContractLifecycleStatus  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneState",
+        status : data[0],
+        stateId : data[2]
+    };
+}
+%}
+
+
+ContractLifecycleStatus -> "INITIALIZED" {% id %} | "INVOICE_ONE_EMITTED" {% id %} | "INVOICE_TWO_EMITTED" {% id %} | "COMPLETED" {% id %} 
+
+
+MilestoneReached -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.MilestoneReached",
+        milestoneName : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneContract -> AccordParty  __  AccordParty  __  MonetaryAmount  __  MonetaryAmount  __  MonetaryAmount  __  String  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        buyer : data[0],
+        seller : data[2],
+        firstInvoiceAmount : data[4],
+        secondInvoiceAmount : data[6],
+        thirdInvoiceAmount : data[8],
+        contractId : data[10],
+        parties : data[12]
+    };
+}
+%}
+
+
+
+
+#
+# Grammar: base
+#
+
+@{%
+    function compact(v) {
+        if (Array.isArray(v)) {
+            return v.reduce((a, v) => (v === null || v === undefined || (v && v.length === 0) ) ? a : (a.push(v), a), []);
+        } else {
+            return v;
+        }
+    }
+
+    function flatten(v) {
+        let r;
+        if (Array.isArray(v)) {
+            r = v.reduce((a,v) => (a.push(...((v && Array.isArray(v)) ? flatten(v) : [v])), a), []);
+        } else {
+            r = v;
+        }
+        r = compact(r);
+        return r;
+        }
+%}
+
+NUMBER -> [0-9] 
+{% (d) => {return parseInt(d[0]);}%}
+
+DOUBLE_NUMBER -> NUMBER NUMBER
+{% (d) => {return '' + d[0] + d[1]}%}
+
+Word -> [\S]:*
+{% (d) => {return d[0].join('');}%}
+
+BRACKET_PHRASE -> "[" Word (__ Word):* "]" {% ((d) => {return d[1] + ' ' + flatten(d[2]).join(" ");}) %}
+
+String -> dqstring {% id %}
+Double -> decimal {% id %}
+Integer -> int {% id %}
+Long -> int {% id %}
+Boolean -> "true" {% id %} | "false" {% id %}
+
+# https://github.com/kach/nearley/blob/master/builtin/number.ne
+unsigned_int -> [0-9]:+ {%
+    function(d) {
+        return parseInt(d[0].join(""));
+    }
+%}
+
+int -> ("-"|"+"):? [0-9]:+ {%
+    function(d) {
+        if (d[0]) {
+            return parseInt(d[0][0]+d[1].join(""));
+        } else {
+            return parseInt(d[1].join(""));
+        }
+    }
+%}
+
+unsigned_decimal -> [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            d[0].join("") +
+            (d[1] ? "."+d[1][1].join("") : "")
+        );
+    }
+%}
+
+decimal -> "-":? [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "")
+        );
+    }
+%}
+
+percentage -> decimal "%" {%
+    function(d) {
+        return d[0]/100;
+    }
+%}
+
+jsonfloat -> "-":? [0-9]:+ ("." [0-9]:+):? ([eE] [+-]:? [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "") +
+            (d[3] ? "e" + (d[3][1] || "+") + d[3][2].join("") : "")
+        );
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/string.ne
+# Matches various kinds of string literals
+
+# Double-quoted string
+dqstring -> "\"" dstrchar:* "\"" {% function(d) {return d[1].join(""); } %}
+sqstring -> "'"  sstrchar:* "'"  {% function(d) {return d[1].join(""); } %}
+btstring -> "`"  [^`]:*    "`"  {% function(d) {return d[1].join(""); } %}
+
+dstrchar -> [^\"\n] {% id %}
+    | "\\" strescape {%
+    function(d) {
+        return JSON.parse("\""+d.join("")+"\"");
+    }
+%}
+
+sstrchar -> [^\\'\n] {% id %}
+    | "\\" strescape
+        {% function(d) { return JSON.parse("\""+d.join("")+"\""); } %}
+    | "\\'"
+        {% function(d) {return "'"; } %}
+
+strescape -> ["\\/bfnrt] {% id %}
+    | "u" [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] {%
+    function(d) {
+        return d.join("");
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/whitespace.ne
+_  -> wschar:* {% function(d) {return null;} %}
+__ -> wschar:+ {% function(d) {return null;} %}
+
+wschar -> [ \t\n\v\f] {% id %}
+
+
+
+11:31:32 - [34mdebug[39m: fromDirectory
+11:31:32 - [32minfo[39m: Creating archive: payment-upon-milestone@0.1.6.cta
+11:33:58 - [32minfo[39m: Using current directory as template folder
+11:33:58 - [34mdebug[39m: loadFileContents
+11:33:58 - [34mdebug[39m: loadFileContents
+11:33:58 - [34mdebug[39m: loadFileContents
+11:33:58 - [34mdebug[39m: fromDirectory
+11:33:58 - [34mdebug[39m: loadFilesContents
+11:33:58 - [34mdebug[39m: loadFilesContents
+11:33:58 - [34mdebug[39m: loadFilesContents
+11:33:58 - [34mdebug[39m: loadFilesContents
+11:33:58 - [34mdebug[39m: loadFilesContents
+11:33:58 - [34mdebug[39m: loadFileContents
+11:33:58 - [34mdebug[39m: fromDirectory
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFileContents
+11:33:59 - [34mdebug[39m: loadFileContents
+11:33:59 - [34mdebug[39m: loadFileContents
+11:33:59 - [34mdebug[39m: loadFileContents
+11:33:59 - [34mdebug[39m: loadFileContents
+11:33:59 - [34mdebug[39m: loadFileContents
+11:33:59 - [34mdebug[39m: fromDirectory
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFileContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFilesContents
+11:33:59 - [34mdebug[39m: loadFileContents
+11:33:59 - [34mdebug[39m: buildGrammar
+11:33:59 - [34mdebug[39m: Template AST {"type":"ContractTemplate","data":[{"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1},{"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}},{"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32},{"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}},{"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46},{"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}},{"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85},{"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}},{"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72},{"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}},{"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}]}
+11:33:59 - [34mdebug[39m: element rule0 {"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1}
+11:33:59 - [34mdebug[39m: element rule1 {"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}}
+11:33:59 - [34mdebug[39m: element rule2 {"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32}
+11:33:59 - [34mdebug[39m: element rule3 {"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}}
+11:33:59 - [34mdebug[39m: element rule4 {"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46}
+11:33:59 - [34mdebug[39m: element rule5 {"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}}
+11:33:59 - [34mdebug[39m: element rule6 {"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85}
+11:33:59 - [34mdebug[39m: element rule7 {"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}}
+11:33:59 - [34mdebug[39m: element rule8 {"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72}
+11:33:59 - [34mdebug[39m: element rule9 {"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}}
+11:33:59 - [34mdebug[39m: element rule10 {"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}
+11:33:59 - [34mdebug[39m: Generated template grammar#
+# This grammar is dynamically generated
+#
+
+#
+# Grammar rules from template text
+#
+
+rule -> rule0 rule1 rule2 rule3 rule4 rule5 rule6 rule7 rule8 rule9 rule10 
+{% ([ rule0,rule1,rule2,rule3,rule4,rule5,rule6,rule7,rule8,rule9,rule10 ]) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        contractId : "e2871aa6-472d-4ea3-8d26-09b42ee93007",
+        buyer : rule1,
+        seller : rule3,
+        firstInvoiceAmount : rule5,
+        secondInvoiceAmount : rule7,
+        thirdInvoiceAmount : rule9,
+    };
+}
+%}
+
+
+#
+# Grammar rules from the template data model
+#
+
+rule0 -> "Fees shall be paid by " 
+
+
+rule1 -> AccordParty {% id %} # buyer 
+
+
+rule2 -> " to " 
+
+
+rule3 -> AccordParty {% id %} # seller 
+
+
+rule4 -> " at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement " 
+
+
+rule5 -> MonetaryAmount {% id %} # firstInvoiceAmount 
+
+
+rule6 -> ";\n• Second invoice: 40% at the designs validation " 
+
+
+rule7 -> MonetaryAmount {% id %} # secondInvoiceAmount 
+
+
+rule8 -> ";\n• Final invoice: 30% at the delivery of the project / go live " 
+
+
+rule9 -> MonetaryAmount {% id %} # thirdInvoiceAmount 
+
+
+rule10 -> ";" 
+
+
+AccordContractState -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordContractState",
+        stateId : data[0]
+    };
+}
+%}
+
+
+AccordParty -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordParty",
+        partyId : data[0]
+    };
+}
+%}
+
+
+Request -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Request",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+Response -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Response",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+PaymentObligation -> MonetaryAmount  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.PaymentObligation",
+        amount : data[0],
+        description : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+NotificationObligation -> String  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.NotificationObligation",
+        title : data[0],
+        message : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+Payload -> AccordContract  __  Request  __  AccordContractState:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Payload",
+        contract : data[0],
+        request : data[2],
+        state : data[4]
+    };
+}
+%}
+
+
+Success -> Response  __  AccordContractState  __  Event:+ 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Success",
+        response : data[0],
+        state : data[2],
+        emit : data[4]
+    };
+}
+%}
+
+
+Failure -> ErrorResponse 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Failure",
+        error : data[0]
+    };
+}
+%}
+
+
+CryptoMonetaryAmount -> Double  __  CryptoCurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.CryptoMonetaryAmount",
+        doubleValue : data[0],
+        cryptoCurrencyCode : data[2]
+    };
+}
+%}
+
+
+CryptoCurrencyCode -> "ADA" {% id %} | "BCH" {% id %} | "BTC" {% id %} | "DASH" {% id %} | "EOS" {% id %} | "ETC" {% id %} | "ETH" {% id %} | "LTC" {% id %} | "NEO" {% id %} | "XLM" {% id %} | "XMR" {% id %} | "XRP" {% id %} | "ZEC" {% id %} 
+
+
+MonetaryAmount -> Double  __  CurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.MonetaryAmount",
+        doubleValue : data[0],
+        currencyCode : data[2]
+    };
+}
+%}
+
+
+CurrencyCode -> "AED" {% id %} | "AFN" {% id %} | "ALL" {% id %} | "AMD" {% id %} | "ANG" {% id %} | "AOA" {% id %} | "ARS" {% id %} | "AUD" {% id %} | "AWG" {% id %} | "AZN" {% id %} | "BAM" {% id %} | "BBD" {% id %} | "BDT" {% id %} | "BGN" {% id %} | "BHD" {% id %} | "BIF" {% id %} | "BMD" {% id %} | "BND" {% id %} | "BOB" {% id %} | "BOV" {% id %} | "BRL" {% id %} | "BSD" {% id %} | "BTN" {% id %} | "BWP" {% id %} | "BYN" {% id %} | "BZD" {% id %} | "CAD" {% id %} | "CDF" {% id %} | "CHE" {% id %} | "CHF" {% id %} | "CHW" {% id %} | "CLF" {% id %} | "CLP" {% id %} | "CNY" {% id %} | "COP" {% id %} | "COU" {% id %} | "CRC" {% id %} | "CUC" {% id %} | "CUP" {% id %} | "CVE" {% id %} | "CZK" {% id %} | "DJF" {% id %} | "DKK" {% id %} | "DOP" {% id %} | "DZD" {% id %} | "EGP" {% id %} | "ERN" {% id %} | "ETB" {% id %} | "EUR" {% id %} | "FJD" {% id %} | "FKP" {% id %} | "GBP" {% id %} | "GEL" {% id %} | "GHS" {% id %} | "GIP" {% id %} | "GMD" {% id %} | "GNF" {% id %} | "GTQ" {% id %} | "GYD" {% id %} | "HKD" {% id %} | "HNL" {% id %} | "HRK" {% id %} | "HTG" {% id %} | "HUF" {% id %} | "IDR" {% id %} | "ILS" {% id %} | "INR" {% id %} | "IQD" {% id %} | "IRR" {% id %} | "ISK" {% id %} | "JMD" {% id %} | "JOD" {% id %} | "JPY" {% id %} | "KES" {% id %} | "KGS" {% id %} | "KHR" {% id %} | "KMF" {% id %} | "KPW" {% id %} | "KRW" {% id %} | "KWD" {% id %} | "KYD" {% id %} | "KZT" {% id %} | "LAK" {% id %} | "LBP" {% id %} | "LKR" {% id %} | "LRD" {% id %} | "LSL" {% id %} | "LYD" {% id %} | "MAD" {% id %} | "MDL" {% id %} | "MGA" {% id %} | "MKD" {% id %} | "MMK" {% id %} | "MNT" {% id %} | "MOP" {% id %} | "MRU" {% id %} | "MUR" {% id %} | "MVR" {% id %} | "MWK" {% id %} | "MXN" {% id %} | "MXV" {% id %} | "MYR" {% id %} | "MZN" {% id %} | "NAD" {% id %} | "NGN" {% id %} | "NIO" {% id %} | "NOK" {% id %} | "NPR" {% id %} | "NZD" {% id %} | "OMR" {% id %} | "PAB" {% id %} | "PEN" {% id %} | "PGK" {% id %} | "PHP" {% id %} | "PKR" {% id %} | "PLN" {% id %} | "PYG" {% id %} | "QAR" {% id %} | "RON" {% id %} | "RSD" {% id %} | "RUB" {% id %} | "RWF" {% id %} | "SAR" {% id %} | "SBD" {% id %} | "SCR" {% id %} | "SDG" {% id %} | "SEK" {% id %} | "SGD" {% id %} | "SHP" {% id %} | "SLL" {% id %} | "SOS" {% id %} | "SRD" {% id %} | "SSP" {% id %} | "STN" {% id %} | "SVC" {% id %} | "SYP" {% id %} | "SZL" {% id %} | "THB" {% id %} | "TJS" {% id %} | "TMT" {% id %} | "TND" {% id %} | "TOP" {% id %} | "TRY" {% id %} | "TTD" {% id %} | "TWD" {% id %} | "TZS" {% id %} | "UAH" {% id %} | "UGX" {% id %} | "USD" {% id %} | "USN" {% id %} | "UYI" {% id %} | "UYU" {% id %} | "UZS" {% id %} | "VEF" {% id %} | "VND" {% id %} | "VUV" {% id %} | "WST" {% id %} | "XAF" {% id %} | "XAG" {% id %} | "XAU" {% id %} | "XBA" {% id %} | "XBB" {% id %} | "XBC" {% id %} | "XBD" {% id %} | "XCD" {% id %} | "XDR" {% id %} | "XOF" {% id %} | "XPD" {% id %} | "XPF" {% id %} | "XPT" {% id %} | "XSU" {% id %} | "XTS" {% id %} | "XUA" {% id %} | "XXX" {% id %} | "YER" {% id %} | "ZAR" {% id %} | "ZMW" {% id %} | "ZWL" {% id %} 
+
+
+PaymentReceived -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.PaymentReceived",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+ContractSigned -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.signature.ContractSigned",
+        contract : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneState -> ContractLifecycleStatus  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneState",
+        status : data[0],
+        stateId : data[2]
+    };
+}
+%}
+
+
+ContractLifecycleStatus -> "INITIALIZED" {% id %} | "INVOICE_ONE_EMITTED" {% id %} | "INVOICE_TWO_EMITTED" {% id %} | "COMPLETED" {% id %} 
+
+
+MilestoneReached -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.MilestoneReached",
+        milestoneName : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneContract -> AccordParty  __  AccordParty  __  MonetaryAmount  __  MonetaryAmount  __  MonetaryAmount  __  String  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        buyer : data[0],
+        seller : data[2],
+        firstInvoiceAmount : data[4],
+        secondInvoiceAmount : data[6],
+        thirdInvoiceAmount : data[8],
+        contractId : data[10],
+        parties : data[12]
+    };
+}
+%}
+
+
+
+
+#
+# Grammar: base
+#
+
+@{%
+    function compact(v) {
+        if (Array.isArray(v)) {
+            return v.reduce((a, v) => (v === null || v === undefined || (v && v.length === 0) ) ? a : (a.push(v), a), []);
+        } else {
+            return v;
+        }
+    }
+
+    function flatten(v) {
+        let r;
+        if (Array.isArray(v)) {
+            r = v.reduce((a,v) => (a.push(...((v && Array.isArray(v)) ? flatten(v) : [v])), a), []);
+        } else {
+            r = v;
+        }
+        r = compact(r);
+        return r;
+        }
+%}
+
+NUMBER -> [0-9] 
+{% (d) => {return parseInt(d[0]);}%}
+
+DOUBLE_NUMBER -> NUMBER NUMBER
+{% (d) => {return '' + d[0] + d[1]}%}
+
+Word -> [\S]:*
+{% (d) => {return d[0].join('');}%}
+
+BRACKET_PHRASE -> "[" Word (__ Word):* "]" {% ((d) => {return d[1] + ' ' + flatten(d[2]).join(" ");}) %}
+
+String -> dqstring {% id %}
+Double -> decimal {% id %}
+Integer -> int {% id %}
+Long -> int {% id %}
+Boolean -> "true" {% id %} | "false" {% id %}
+
+# https://github.com/kach/nearley/blob/master/builtin/number.ne
+unsigned_int -> [0-9]:+ {%
+    function(d) {
+        return parseInt(d[0].join(""));
+    }
+%}
+
+int -> ("-"|"+"):? [0-9]:+ {%
+    function(d) {
+        if (d[0]) {
+            return parseInt(d[0][0]+d[1].join(""));
+        } else {
+            return parseInt(d[1].join(""));
+        }
+    }
+%}
+
+unsigned_decimal -> [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            d[0].join("") +
+            (d[1] ? "."+d[1][1].join("") : "")
+        );
+    }
+%}
+
+decimal -> "-":? [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "")
+        );
+    }
+%}
+
+percentage -> decimal "%" {%
+    function(d) {
+        return d[0]/100;
+    }
+%}
+
+jsonfloat -> "-":? [0-9]:+ ("." [0-9]:+):? ([eE] [+-]:? [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "") +
+            (d[3] ? "e" + (d[3][1] || "+") + d[3][2].join("") : "")
+        );
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/string.ne
+# Matches various kinds of string literals
+
+# Double-quoted string
+dqstring -> "\"" dstrchar:* "\"" {% function(d) {return d[1].join(""); } %}
+sqstring -> "'"  sstrchar:* "'"  {% function(d) {return d[1].join(""); } %}
+btstring -> "`"  [^`]:*    "`"  {% function(d) {return d[1].join(""); } %}
+
+dstrchar -> [^\"\n] {% id %}
+    | "\\" strescape {%
+    function(d) {
+        return JSON.parse("\""+d.join("")+"\"");
+    }
+%}
+
+sstrchar -> [^\\'\n] {% id %}
+    | "\\" strescape
+        {% function(d) { return JSON.parse("\""+d.join("")+"\""); } %}
+    | "\\'"
+        {% function(d) {return "'"; } %}
+
+strescape -> ["\\/bfnrt] {% id %}
+    | "u" [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] {%
+    function(d) {
+        return d.join("");
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/whitespace.ne
+_  -> wschar:* {% function(d) {return null;} %}
+__ -> wschar:+ {% function(d) {return null;} %}
+
+wschar -> [ \t\n\v\f] {% id %}
+
+
+
+11:33:59 - [34mdebug[39m: fromDirectory
+11:33:59 - [32minfo[39m: Creating archive: payment-upon-milestone@0.1.6.cta
+13:12:30 - [32minfo[39m: Using current directory as template folder
+13:12:30 - [34mdebug[39m: loadFileContents
+13:12:30 - [34mdebug[39m: loadFileContents
+13:12:30 - [34mdebug[39m: loadFileContents
+13:12:30 - [34mdebug[39m: fromDirectory
+13:12:30 - [34mdebug[39m: loadFilesContents
+13:12:30 - [34mdebug[39m: loadFilesContents
+13:12:30 - [34mdebug[39m: loadFilesContents
+13:12:30 - [34mdebug[39m: loadFilesContents
+13:12:30 - [34mdebug[39m: loadFilesContents
+13:12:30 - [34mdebug[39m: loadFileContents
+13:12:30 - [34mdebug[39m: fromDirectory
+13:12:30 - [31merror[39m: The template targets Cicero (^0.12.2) but the Cicero version is 0.13.3.
+13:12:30 - [31merror[39m: The template targets Cicero (^0.12.2) but the Cicero version is 0.13.3.
+13:13:37 - [32minfo[39m: Using current directory as template folder
+13:13:37 - [34mdebug[39m: loadFileContents
+13:13:37 - [34mdebug[39m: loadFileContents
+13:13:37 - [34mdebug[39m: loadFileContents
+13:13:37 - [34mdebug[39m: fromDirectory
+13:13:37 - [34mdebug[39m: loadFilesContents
+13:13:37 - [34mdebug[39m: loadFilesContents
+13:13:37 - [34mdebug[39m: loadFilesContents
+13:13:37 - [34mdebug[39m: loadFilesContents
+13:13:37 - [34mdebug[39m: loadFilesContents
+13:13:37 - [34mdebug[39m: loadFileContents
+13:13:37 - [34mdebug[39m: fromDirectory
+13:13:37 - [31merror[39m: The template targets Cicero (^0.12.2) but the Cicero version is 0.13.3.
+13:13:37 - [31merror[39m: The template targets Cicero (^0.12.2) but the Cicero version is 0.13.3.
+3:40:10 PM - [32minfo[39m: Using current directory as template folder
+3:40:10 PM - [32minfo[39m: Loading a default sample.txt file.
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:10 PM - [34mdebug[39m: fromDirectory
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:10 PM - [34mdebug[39m: fromDirectory
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFilesContents
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:10 PM - [34mdebug[39m: loadFileContents
+3:40:11 PM - [34mdebug[39m: fromDirectory
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFileContents
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFilesContents
+3:40:11 PM - [34mdebug[39m: loadFileContents
+3:40:11 PM - [34mdebug[39m: loadFileContents
+3:40:11 PM - [34mdebug[39m: buildGrammar
+3:40:11 PM - [34mdebug[39m: Template AST {"type":"ContractTemplate","data":[{"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1},{"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}},{"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32},{"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}},{"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46},{"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}},{"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85},{"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}},{"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72},{"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}},{"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}]}
+3:40:11 PM - [34mdebug[39m: element rule0 {"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1}
+3:40:11 PM - [34mdebug[39m: element rule1 {"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}}
+3:40:11 PM - [34mdebug[39m: element rule2 {"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32}
+3:40:11 PM - [34mdebug[39m: element rule3 {"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}}
+3:40:11 PM - [34mdebug[39m: element rule4 {"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46}
+3:40:11 PM - [34mdebug[39m: element rule5 {"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}}
+3:40:11 PM - [34mdebug[39m: element rule6 {"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85}
+3:40:11 PM - [34mdebug[39m: element rule7 {"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}}
+3:40:11 PM - [34mdebug[39m: element rule8 {"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72}
+3:40:11 PM - [34mdebug[39m: element rule9 {"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}}
+3:40:11 PM - [34mdebug[39m: element rule10 {"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}
+3:40:11 PM - [34mdebug[39m: Generated template grammar#
+# This grammar is dynamically generated
+#
+
+#
+# Grammar rules from template text
+#
+
+rule -> rule0 rule1 rule2 rule3 rule4 rule5 rule6 rule7 rule8 rule9 rule10 
+{% ([ rule0,rule1,rule2,rule3,rule4,rule5,rule6,rule7,rule8,rule9,rule10 ]) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        contractId : "ac7e773e-fd1b-4d89-9ec4-f03c63d4f8b2",
+        buyer : rule1,
+        seller : rule3,
+        firstInvoiceAmount : rule5,
+        secondInvoiceAmount : rule7,
+        thirdInvoiceAmount : rule9,
+    };
+}
+%}
+
+
+#
+# Grammar rules from the template data model
+#
+
+rule0 -> "Fees shall be paid by " 
+
+
+rule1 -> AccordParty {% id %} # buyer 
+
+
+rule2 -> " to " 
+
+
+rule3 -> AccordParty {% id %} # seller 
+
+
+rule4 -> " at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement " 
+
+
+rule5 -> MonetaryAmount {% id %} # firstInvoiceAmount 
+
+
+rule6 -> ";\n• Second invoice: 40% at the designs validation " 
+
+
+rule7 -> MonetaryAmount {% id %} # secondInvoiceAmount 
+
+
+rule8 -> ";\n• Final invoice: 30% at the delivery of the project / go live " 
+
+
+rule9 -> MonetaryAmount {% id %} # thirdInvoiceAmount 
+
+
+rule10 -> ";" 
+
+
+AccordContractState -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordContractState",
+        stateId : data[0]
+    };
+}
+%}
+
+
+AccordParty -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordParty",
+        partyId : data[0]
+    };
+}
+%}
+
+
+Request -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Request",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+Response -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Response",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+PaymentObligation -> MonetaryAmount  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.PaymentObligation",
+        amount : data[0],
+        description : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+NotificationObligation -> String  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.NotificationObligation",
+        title : data[0],
+        message : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+Payload -> AccordContract  __  Request  __  AccordContractState:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Payload",
+        contract : data[0],
+        request : data[2],
+        state : data[4]
+    };
+}
+%}
+
+
+Success -> Response  __  AccordContractState  __  Event:+ 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Success",
+        response : data[0],
+        state : data[2],
+        emit : data[4]
+    };
+}
+%}
+
+
+Failure -> ErrorResponse 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Failure",
+        error : data[0]
+    };
+}
+%}
+
+
+CryptoMonetaryAmount -> Double  __  CryptoCurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.CryptoMonetaryAmount",
+        doubleValue : data[0],
+        cryptoCurrencyCode : data[2]
+    };
+}
+%}
+
+
+CryptoCurrencyCode -> "ADA" {% id %} | "BCH" {% id %} | "BTC" {% id %} | "DASH" {% id %} | "EOS" {% id %} | "ETC" {% id %} | "ETH" {% id %} | "LTC" {% id %} | "NEO" {% id %} | "XLM" {% id %} | "XMR" {% id %} | "XRP" {% id %} | "ZEC" {% id %} 
+
+
+MonetaryAmount -> Double  __  CurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.MonetaryAmount",
+        doubleValue : data[0],
+        currencyCode : data[2]
+    };
+}
+%}
+
+
+CurrencyCode -> "AED" {% id %} | "AFN" {% id %} | "ALL" {% id %} | "AMD" {% id %} | "ANG" {% id %} | "AOA" {% id %} | "ARS" {% id %} | "AUD" {% id %} | "AWG" {% id %} | "AZN" {% id %} | "BAM" {% id %} | "BBD" {% id %} | "BDT" {% id %} | "BGN" {% id %} | "BHD" {% id %} | "BIF" {% id %} | "BMD" {% id %} | "BND" {% id %} | "BOB" {% id %} | "BOV" {% id %} | "BRL" {% id %} | "BSD" {% id %} | "BTN" {% id %} | "BWP" {% id %} | "BYN" {% id %} | "BZD" {% id %} | "CAD" {% id %} | "CDF" {% id %} | "CHE" {% id %} | "CHF" {% id %} | "CHW" {% id %} | "CLF" {% id %} | "CLP" {% id %} | "CNY" {% id %} | "COP" {% id %} | "COU" {% id %} | "CRC" {% id %} | "CUC" {% id %} | "CUP" {% id %} | "CVE" {% id %} | "CZK" {% id %} | "DJF" {% id %} | "DKK" {% id %} | "DOP" {% id %} | "DZD" {% id %} | "EGP" {% id %} | "ERN" {% id %} | "ETB" {% id %} | "EUR" {% id %} | "FJD" {% id %} | "FKP" {% id %} | "GBP" {% id %} | "GEL" {% id %} | "GHS" {% id %} | "GIP" {% id %} | "GMD" {% id %} | "GNF" {% id %} | "GTQ" {% id %} | "GYD" {% id %} | "HKD" {% id %} | "HNL" {% id %} | "HRK" {% id %} | "HTG" {% id %} | "HUF" {% id %} | "IDR" {% id %} | "ILS" {% id %} | "INR" {% id %} | "IQD" {% id %} | "IRR" {% id %} | "ISK" {% id %} | "JMD" {% id %} | "JOD" {% id %} | "JPY" {% id %} | "KES" {% id %} | "KGS" {% id %} | "KHR" {% id %} | "KMF" {% id %} | "KPW" {% id %} | "KRW" {% id %} | "KWD" {% id %} | "KYD" {% id %} | "KZT" {% id %} | "LAK" {% id %} | "LBP" {% id %} | "LKR" {% id %} | "LRD" {% id %} | "LSL" {% id %} | "LYD" {% id %} | "MAD" {% id %} | "MDL" {% id %} | "MGA" {% id %} | "MKD" {% id %} | "MMK" {% id %} | "MNT" {% id %} | "MOP" {% id %} | "MRU" {% id %} | "MUR" {% id %} | "MVR" {% id %} | "MWK" {% id %} | "MXN" {% id %} | "MXV" {% id %} | "MYR" {% id %} | "MZN" {% id %} | "NAD" {% id %} | "NGN" {% id %} | "NIO" {% id %} | "NOK" {% id %} | "NPR" {% id %} | "NZD" {% id %} | "OMR" {% id %} | "PAB" {% id %} | "PEN" {% id %} | "PGK" {% id %} | "PHP" {% id %} | "PKR" {% id %} | "PLN" {% id %} | "PYG" {% id %} | "QAR" {% id %} | "RON" {% id %} | "RSD" {% id %} | "RUB" {% id %} | "RWF" {% id %} | "SAR" {% id %} | "SBD" {% id %} | "SCR" {% id %} | "SDG" {% id %} | "SEK" {% id %} | "SGD" {% id %} | "SHP" {% id %} | "SLL" {% id %} | "SOS" {% id %} | "SRD" {% id %} | "SSP" {% id %} | "STN" {% id %} | "SVC" {% id %} | "SYP" {% id %} | "SZL" {% id %} | "THB" {% id %} | "TJS" {% id %} | "TMT" {% id %} | "TND" {% id %} | "TOP" {% id %} | "TRY" {% id %} | "TTD" {% id %} | "TWD" {% id %} | "TZS" {% id %} | "UAH" {% id %} | "UGX" {% id %} | "USD" {% id %} | "USN" {% id %} | "UYI" {% id %} | "UYU" {% id %} | "UZS" {% id %} | "VEF" {% id %} | "VND" {% id %} | "VUV" {% id %} | "WST" {% id %} | "XAF" {% id %} | "XAG" {% id %} | "XAU" {% id %} | "XBA" {% id %} | "XBB" {% id %} | "XBC" {% id %} | "XBD" {% id %} | "XCD" {% id %} | "XDR" {% id %} | "XOF" {% id %} | "XPD" {% id %} | "XPF" {% id %} | "XPT" {% id %} | "XSU" {% id %} | "XTS" {% id %} | "XUA" {% id %} | "XXX" {% id %} | "YER" {% id %} | "ZAR" {% id %} | "ZMW" {% id %} | "ZWL" {% id %} 
+
+
+PaymentReceived -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.PaymentReceived",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+ContractSigned -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.signature.ContractSigned",
+        contract : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneState -> ContractLifecycleStatus  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneState",
+        status : data[0],
+        stateId : data[2]
+    };
+}
+%}
+
+
+ContractLifecycleStatus -> "INITIALIZED" {% id %} | "INVOICE_ONE_EMITTED" {% id %} | "INVOICE_TWO_EMITTED" {% id %} | "COMPLETED" {% id %} 
+
+
+MilestoneReached -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.MilestoneReached",
+        milestoneName : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneContract -> AccordParty  __  AccordParty  __  MonetaryAmount  __  MonetaryAmount  __  MonetaryAmount  __  String  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        buyer : data[0],
+        seller : data[2],
+        firstInvoiceAmount : data[4],
+        secondInvoiceAmount : data[6],
+        thirdInvoiceAmount : data[8],
+        contractId : data[10],
+        parties : data[12]
+    };
+}
+%}
+
+
+
+
+#
+# Grammar: base
+#
+
+@{%
+    function compact(v) {
+        if (Array.isArray(v)) {
+            return v.reduce((a, v) => (v === null || v === undefined || (v && v.length === 0) ) ? a : (a.push(v), a), []);
+        } else {
+            return v;
+        }
+    }
+
+    function flatten(v) {
+        let r;
+        if (Array.isArray(v)) {
+            r = v.reduce((a,v) => (a.push(...((v && Array.isArray(v)) ? flatten(v) : [v])), a), []);
+        } else {
+            r = v;
+        }
+        r = compact(r);
+        return r;
+        }
+%}
+
+NUMBER -> [0-9] 
+{% (d) => {return parseInt(d[0]);}%}
+
+DOUBLE_NUMBER -> NUMBER NUMBER
+{% (d) => {return '' + d[0] + d[1]}%}
+
+Word -> [\S]:*
+{% (d) => {return d[0].join('');}%}
+
+BRACKET_PHRASE -> "[" Word (__ Word):* "]" {% ((d) => {return d[1] + ' ' + flatten(d[2]).join(" ");}) %}
+
+String -> dqstring {% id %}
+Double -> decimal {% id %}
+Integer -> int {% id %}
+Long -> int {% id %}
+Boolean -> "true" {% id %} | "false" {% id %}
+
+# https://github.com/kach/nearley/blob/master/builtin/number.ne
+unsigned_int -> [0-9]:+ {%
+    function(d) {
+        return parseInt(d[0].join(""));
+    }
+%}
+
+int -> ("-"|"+"):? [0-9]:+ {%
+    function(d) {
+        if (d[0]) {
+            return parseInt(d[0][0]+d[1].join(""));
+        } else {
+            return parseInt(d[1].join(""));
+        }
+    }
+%}
+
+unsigned_decimal -> [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            d[0].join("") +
+            (d[1] ? "."+d[1][1].join("") : "")
+        );
+    }
+%}
+
+decimal -> "-":? [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "")
+        );
+    }
+%}
+
+percentage -> decimal "%" {%
+    function(d) {
+        return d[0]/100;
+    }
+%}
+
+jsonfloat -> "-":? [0-9]:+ ("." [0-9]:+):? ([eE] [+-]:? [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "") +
+            (d[3] ? "e" + (d[3][1] || "+") + d[3][2].join("") : "")
+        );
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/string.ne
+# Matches various kinds of string literals
+
+# Double-quoted string
+dqstring -> "\"" dstrchar:* "\"" {% function(d) {return d[1].join(""); } %}
+sqstring -> "'"  sstrchar:* "'"  {% function(d) {return d[1].join(""); } %}
+btstring -> "`"  [^`]:*    "`"  {% function(d) {return d[1].join(""); } %}
+
+dstrchar -> [^\"\n] {% id %}
+    | "\\" strescape {%
+    function(d) {
+        return JSON.parse("\""+d.join("")+"\"");
+    }
+%}
+
+sstrchar -> [^\\'\n] {% id %}
+    | "\\" strescape
+        {% function(d) { return JSON.parse("\""+d.join("")+"\""); } %}
+    | "\\'"
+        {% function(d) {return "'"; } %}
+
+strescape -> ["\\/bfnrt] {% id %}
+    | "u" [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] {%
+    function(d) {
+        return d.join("");
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/whitespace.ne
+_  -> wschar:* {% function(d) {return null;} %}
+__ -> wschar:+ {% function(d) {return null;} %}
+
+wschar -> [ \t\n\v\f] {% id %}
+
+
+
+3:40:11 PM - [34mdebug[39m: fromDirectory
+3:40:11 PM - [34mdebug[39m: Result of parsing: {"$class":"org.accordproject.payment.milestone.PaymentUponMilestoneContract","contractId":"ac7e773e-fd1b-4d89-9ec4-f03c63d4f8b2","buyer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Cat Inc."},"seller":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Dog Corp."},"firstInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"},"secondInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":4000,"currencyCode":"USD"},"thirdInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"}}
+3:40:11 PM - [34mdebug[39m: Setting clause data: {"$class":"org.accordproject.payment.milestone.PaymentUponMilestoneContract","contractId":"ac7e773e-fd1b-4d89-9ec4-f03c63d4f8b2","buyer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Cat Inc."},"seller":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Dog Corp."},"firstInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"},"secondInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":4000,"currencyCode":"USD"},"thirdInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"}}
+3:40:11 PM - [32minfo[39m:
+[33m{[39m
+  [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.payment.milestone.PaymentUponMilestoneContract[39m[33m"[39m[33m,[39m
+  [33m"[39m[32mcontractId[39m[33m"[39m[33m: [39m[33m"[39m[35mac7e773e-fd1b-4d89-9ec4-f03c63d4f8b2[39m[33m"[39m[33m,[39m
+  [33m"[39m[32mbuyer[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.cicero.contract.AccordParty[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mpartyId[39m[33m"[39m[33m: [39m[33m"[39m[35mCat Inc.[39m[33m"[39m
+  [33m}[39m[33m,[39m
+  [33m"[39m[32mseller[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.cicero.contract.AccordParty[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mpartyId[39m[33m"[39m[33m: [39m[33m"[39m[35mDog Corp.[39m[33m"[39m
+  [33m}[39m[33m,[39m
+  [33m"[39m[32mfirstInvoiceAmount[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.money.MonetaryAmount[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mdoubleValue[39m[33m"[39m[33m: [39m[36m3000[39m[33m,[39m
+    [33m"[39m[32mcurrencyCode[39m[33m"[39m[33m: [39m[33m"[39m[35mUSD[39m[33m"[39m
+  [33m}[39m[33m,[39m
+  [33m"[39m[32msecondInvoiceAmount[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.money.MonetaryAmount[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mdoubleValue[39m[33m"[39m[33m: [39m[36m4000[39m[33m,[39m
+    [33m"[39m[32mcurrencyCode[39m[33m"[39m[33m: [39m[33m"[39m[35mUSD[39m[33m"[39m
+  [33m}[39m[33m,[39m
+  [33m"[39m[32mthirdInvoiceAmount[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.money.MonetaryAmount[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mdoubleValue[39m[33m"[39m[33m: [39m[36m3000[39m[33m,[39m
+    [33m"[39m[32mcurrencyCode[39m[33m"[39m[33m: [39m[33m"[39m[35mUSD[39m[33m"[39m
+  [33m}[39m
+[33m}[39m
+3:40:50 PM - [32minfo[39m: Using current directory as template folder
+3:40:50 PM - [32minfo[39m: Loading a default sample.txt file.
+3:40:50 PM - [32minfo[39m: Loading a default request.json file.
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:50 PM - [34mdebug[39m: fromDirectory
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:50 PM - [34mdebug[39m: fromDirectory
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFilesContents
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:50 PM - [34mdebug[39m: loadFileContents
+3:40:51 PM - [34mdebug[39m: fromDirectory
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFileContents
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFilesContents
+3:40:51 PM - [34mdebug[39m: loadFileContents
+3:40:51 PM - [34mdebug[39m: loadFileContents
+3:40:51 PM - [34mdebug[39m: buildGrammar
+3:40:51 PM - [34mdebug[39m: Template AST {"type":"ContractTemplate","data":[{"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1},{"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}},{"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32},{"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}},{"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46},{"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}},{"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85},{"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}},{"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72},{"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}},{"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}]}
+3:40:51 PM - [34mdebug[39m: element rule0 {"type":"Chunk","value":"Fees shall be paid by ","text":"Fees shall be paid by [{","offset":0,"lineBreaks":0,"line":1,"col":1}
+3:40:51 PM - [34mdebug[39m: element rule1 {"type":"Binding","fieldName":{"type":"varid","value":"buyer","text":"buyer","offset":24,"lineBreaks":0,"line":1,"col":25}}
+3:40:51 PM - [34mdebug[39m: element rule2 {"type":"Chunk","value":" to ","text":" to [{","offset":31,"lineBreaks":0,"line":1,"col":32}
+3:40:51 PM - [34mdebug[39m: element rule3 {"type":"Binding","fieldName":{"type":"varid","value":"seller","text":"seller","offset":37,"lineBreaks":0,"line":1,"col":38}}
+3:40:51 PM - [34mdebug[39m: element rule4 {"type":"Chunk","value":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement ","text":" at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement [{","offset":45,"lineBreaks":1,"line":1,"col":46}
+3:40:51 PM - [34mdebug[39m: element rule5 {"type":"Binding","fieldName":{"type":"varid","value":"firstInvoiceAmount","text":"firstInvoiceAmount","offset":166,"lineBreaks":0,"line":2,"col":65}}
+3:40:51 PM - [34mdebug[39m: element rule6 {"type":"Chunk","value":";\n• Second invoice: 40% at the designs validation ","text":";\n• Second invoice: 40% at the designs validation [{","offset":186,"lineBreaks":1,"line":2,"col":85}
+3:40:51 PM - [34mdebug[39m: element rule7 {"type":"Binding","fieldName":{"type":"varid","value":"secondInvoiceAmount","text":"secondInvoiceAmount","offset":238,"lineBreaks":0,"line":3,"col":51}}
+3:40:51 PM - [34mdebug[39m: element rule8 {"type":"Chunk","value":";\n• Final invoice: 30% at the delivery of the project / go live ","text":";\n• Final invoice: 30% at the delivery of the project / go live [{","offset":259,"lineBreaks":1,"line":3,"col":72}
+3:40:51 PM - [34mdebug[39m: element rule9 {"type":"Binding","fieldName":{"type":"varid","value":"thirdInvoiceAmount","text":"thirdInvoiceAmount","offset":325,"lineBreaks":0,"line":4,"col":65}}
+3:40:51 PM - [34mdebug[39m: element rule10 {"type":"LastChunk","value":";","text":";","offset":345,"lineBreaks":0,"line":4,"col":85}
+3:40:51 PM - [34mdebug[39m: Generated template grammar#
+# This grammar is dynamically generated
+#
+
+#
+# Grammar rules from template text
+#
+
+rule -> rule0 rule1 rule2 rule3 rule4 rule5 rule6 rule7 rule8 rule9 rule10 
+{% ([ rule0,rule1,rule2,rule3,rule4,rule5,rule6,rule7,rule8,rule9,rule10 ]) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        contractId : "3563abc8-a067-47aa-bbc1-a2879f1de066",
+        buyer : rule1,
+        seller : rule3,
+        firstInvoiceAmount : rule5,
+        secondInvoiceAmount : rule7,
+        thirdInvoiceAmount : rule9,
+    };
+}
+%}
+
+
+#
+# Grammar rules from the template data model
+#
+
+rule0 -> "Fees shall be paid by " 
+
+
+rule1 -> AccordParty {% id %} # buyer 
+
+
+rule2 -> " to " 
+
+
+rule3 -> AccordParty {% id %} # seller 
+
+
+rule4 -> " at milestone deliveries of the project, and as follows:\n• Down payment: 30% at signature of this Letter of Engagement " 
+
+
+rule5 -> MonetaryAmount {% id %} # firstInvoiceAmount 
+
+
+rule6 -> ";\n• Second invoice: 40% at the designs validation " 
+
+
+rule7 -> MonetaryAmount {% id %} # secondInvoiceAmount 
+
+
+rule8 -> ";\n• Final invoice: 30% at the delivery of the project / go live " 
+
+
+rule9 -> MonetaryAmount {% id %} # thirdInvoiceAmount 
+
+
+rule10 -> ";" 
+
+
+AccordContractState -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordContractState",
+        stateId : data[0]
+    };
+}
+%}
+
+
+AccordParty -> String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.contract.AccordParty",
+        partyId : data[0]
+    };
+}
+%}
+
+
+Request -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Request",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+Response -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Response",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+PaymentObligation -> MonetaryAmount  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.PaymentObligation",
+        amount : data[0],
+        description : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+NotificationObligation -> String  __  String  __  String  __  String  __  String  __  DateTime:?  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.NotificationObligation",
+        title : data[0],
+        message : data[2],
+        contract : data[4],
+        promisor : data[6],
+        promisee : data[8],
+        deadline : data[10],
+        eventId : data[12],
+        timestamp : data[14]
+    };
+}
+%}
+
+
+Payload -> AccordContract  __  Request  __  AccordContractState:? 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Payload",
+        contract : data[0],
+        request : data[2],
+        state : data[4]
+    };
+}
+%}
+
+
+Success -> Response  __  AccordContractState  __  Event:+ 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Success",
+        response : data[0],
+        state : data[2],
+        emit : data[4]
+    };
+}
+%}
+
+
+Failure -> ErrorResponse 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.cicero.runtime.Failure",
+        error : data[0]
+    };
+}
+%}
+
+
+CryptoMonetaryAmount -> Double  __  CryptoCurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.CryptoMonetaryAmount",
+        doubleValue : data[0],
+        cryptoCurrencyCode : data[2]
+    };
+}
+%}
+
+
+CryptoCurrencyCode -> "ADA" {% id %} | "BCH" {% id %} | "BTC" {% id %} | "DASH" {% id %} | "EOS" {% id %} | "ETC" {% id %} | "ETH" {% id %} | "LTC" {% id %} | "NEO" {% id %} | "XLM" {% id %} | "XMR" {% id %} | "XRP" {% id %} | "ZEC" {% id %} 
+
+
+MonetaryAmount -> Double  __  CurrencyCode 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.money.MonetaryAmount",
+        doubleValue : data[0],
+        currencyCode : data[2]
+    };
+}
+%}
+
+
+CurrencyCode -> "AED" {% id %} | "AFN" {% id %} | "ALL" {% id %} | "AMD" {% id %} | "ANG" {% id %} | "AOA" {% id %} | "ARS" {% id %} | "AUD" {% id %} | "AWG" {% id %} | "AZN" {% id %} | "BAM" {% id %} | "BBD" {% id %} | "BDT" {% id %} | "BGN" {% id %} | "BHD" {% id %} | "BIF" {% id %} | "BMD" {% id %} | "BND" {% id %} | "BOB" {% id %} | "BOV" {% id %} | "BRL" {% id %} | "BSD" {% id %} | "BTN" {% id %} | "BWP" {% id %} | "BYN" {% id %} | "BZD" {% id %} | "CAD" {% id %} | "CDF" {% id %} | "CHE" {% id %} | "CHF" {% id %} | "CHW" {% id %} | "CLF" {% id %} | "CLP" {% id %} | "CNY" {% id %} | "COP" {% id %} | "COU" {% id %} | "CRC" {% id %} | "CUC" {% id %} | "CUP" {% id %} | "CVE" {% id %} | "CZK" {% id %} | "DJF" {% id %} | "DKK" {% id %} | "DOP" {% id %} | "DZD" {% id %} | "EGP" {% id %} | "ERN" {% id %} | "ETB" {% id %} | "EUR" {% id %} | "FJD" {% id %} | "FKP" {% id %} | "GBP" {% id %} | "GEL" {% id %} | "GHS" {% id %} | "GIP" {% id %} | "GMD" {% id %} | "GNF" {% id %} | "GTQ" {% id %} | "GYD" {% id %} | "HKD" {% id %} | "HNL" {% id %} | "HRK" {% id %} | "HTG" {% id %} | "HUF" {% id %} | "IDR" {% id %} | "ILS" {% id %} | "INR" {% id %} | "IQD" {% id %} | "IRR" {% id %} | "ISK" {% id %} | "JMD" {% id %} | "JOD" {% id %} | "JPY" {% id %} | "KES" {% id %} | "KGS" {% id %} | "KHR" {% id %} | "KMF" {% id %} | "KPW" {% id %} | "KRW" {% id %} | "KWD" {% id %} | "KYD" {% id %} | "KZT" {% id %} | "LAK" {% id %} | "LBP" {% id %} | "LKR" {% id %} | "LRD" {% id %} | "LSL" {% id %} | "LYD" {% id %} | "MAD" {% id %} | "MDL" {% id %} | "MGA" {% id %} | "MKD" {% id %} | "MMK" {% id %} | "MNT" {% id %} | "MOP" {% id %} | "MRU" {% id %} | "MUR" {% id %} | "MVR" {% id %} | "MWK" {% id %} | "MXN" {% id %} | "MXV" {% id %} | "MYR" {% id %} | "MZN" {% id %} | "NAD" {% id %} | "NGN" {% id %} | "NIO" {% id %} | "NOK" {% id %} | "NPR" {% id %} | "NZD" {% id %} | "OMR" {% id %} | "PAB" {% id %} | "PEN" {% id %} | "PGK" {% id %} | "PHP" {% id %} | "PKR" {% id %} | "PLN" {% id %} | "PYG" {% id %} | "QAR" {% id %} | "RON" {% id %} | "RSD" {% id %} | "RUB" {% id %} | "RWF" {% id %} | "SAR" {% id %} | "SBD" {% id %} | "SCR" {% id %} | "SDG" {% id %} | "SEK" {% id %} | "SGD" {% id %} | "SHP" {% id %} | "SLL" {% id %} | "SOS" {% id %} | "SRD" {% id %} | "SSP" {% id %} | "STN" {% id %} | "SVC" {% id %} | "SYP" {% id %} | "SZL" {% id %} | "THB" {% id %} | "TJS" {% id %} | "TMT" {% id %} | "TND" {% id %} | "TOP" {% id %} | "TRY" {% id %} | "TTD" {% id %} | "TWD" {% id %} | "TZS" {% id %} | "UAH" {% id %} | "UGX" {% id %} | "USD" {% id %} | "USN" {% id %} | "UYI" {% id %} | "UYU" {% id %} | "UZS" {% id %} | "VEF" {% id %} | "VND" {% id %} | "VUV" {% id %} | "WST" {% id %} | "XAF" {% id %} | "XAG" {% id %} | "XAU" {% id %} | "XBA" {% id %} | "XBB" {% id %} | "XBC" {% id %} | "XBD" {% id %} | "XCD" {% id %} | "XDR" {% id %} | "XOF" {% id %} | "XPD" {% id %} | "XPF" {% id %} | "XPT" {% id %} | "XSU" {% id %} | "XTS" {% id %} | "XUA" {% id %} | "XXX" {% id %} | "YER" {% id %} | "ZAR" {% id %} | "ZMW" {% id %} | "ZWL" {% id %} 
+
+
+PaymentReceived -> String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.PaymentReceived",
+        transactionId : data[0],
+        timestamp : data[2]
+    };
+}
+%}
+
+
+ContractSigned -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.signature.ContractSigned",
+        contract : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneState -> ContractLifecycleStatus  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneState",
+        status : data[0],
+        stateId : data[2]
+    };
+}
+%}
+
+
+ContractLifecycleStatus -> "INITIALIZED" {% id %} | "INVOICE_ONE_EMITTED" {% id %} | "INVOICE_TWO_EMITTED" {% id %} | "COMPLETED" {% id %} 
+
+
+MilestoneReached -> String  __  String  __  DateTime 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.MilestoneReached",
+        milestoneName : data[0],
+        transactionId : data[2],
+        timestamp : data[4]
+    };
+}
+%}
+
+
+PaymentUponMilestoneContract -> AccordParty  __  AccordParty  __  MonetaryAmount  __  MonetaryAmount  __  MonetaryAmount  __  String  __  String 
+
+{% ( data ) => {
+    return {
+        $class: "org.accordproject.payment.milestone.PaymentUponMilestoneContract",
+        buyer : data[0],
+        seller : data[2],
+        firstInvoiceAmount : data[4],
+        secondInvoiceAmount : data[6],
+        thirdInvoiceAmount : data[8],
+        contractId : data[10],
+        parties : data[12]
+    };
+}
+%}
+
+
+
+
+#
+# Grammar: base
+#
+
+@{%
+    function compact(v) {
+        if (Array.isArray(v)) {
+            return v.reduce((a, v) => (v === null || v === undefined || (v && v.length === 0) ) ? a : (a.push(v), a), []);
+        } else {
+            return v;
+        }
+    }
+
+    function flatten(v) {
+        let r;
+        if (Array.isArray(v)) {
+            r = v.reduce((a,v) => (a.push(...((v && Array.isArray(v)) ? flatten(v) : [v])), a), []);
+        } else {
+            r = v;
+        }
+        r = compact(r);
+        return r;
+        }
+%}
+
+NUMBER -> [0-9] 
+{% (d) => {return parseInt(d[0]);}%}
+
+DOUBLE_NUMBER -> NUMBER NUMBER
+{% (d) => {return '' + d[0] + d[1]}%}
+
+Word -> [\S]:*
+{% (d) => {return d[0].join('');}%}
+
+BRACKET_PHRASE -> "[" Word (__ Word):* "]" {% ((d) => {return d[1] + ' ' + flatten(d[2]).join(" ");}) %}
+
+String -> dqstring {% id %}
+Double -> decimal {% id %}
+Integer -> int {% id %}
+Long -> int {% id %}
+Boolean -> "true" {% id %} | "false" {% id %}
+
+# https://github.com/kach/nearley/blob/master/builtin/number.ne
+unsigned_int -> [0-9]:+ {%
+    function(d) {
+        return parseInt(d[0].join(""));
+    }
+%}
+
+int -> ("-"|"+"):? [0-9]:+ {%
+    function(d) {
+        if (d[0]) {
+            return parseInt(d[0][0]+d[1].join(""));
+        } else {
+            return parseInt(d[1].join(""));
+        }
+    }
+%}
+
+unsigned_decimal -> [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            d[0].join("") +
+            (d[1] ? "."+d[1][1].join("") : "")
+        );
+    }
+%}
+
+decimal -> "-":? [0-9]:+ ("." [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "")
+        );
+    }
+%}
+
+percentage -> decimal "%" {%
+    function(d) {
+        return d[0]/100;
+    }
+%}
+
+jsonfloat -> "-":? [0-9]:+ ("." [0-9]:+):? ([eE] [+-]:? [0-9]:+):? {%
+    function(d) {
+        return parseFloat(
+            (d[0] || "") +
+            d[1].join("") +
+            (d[2] ? "."+d[2][1].join("") : "") +
+            (d[3] ? "e" + (d[3][1] || "+") + d[3][2].join("") : "")
+        );
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/string.ne
+# Matches various kinds of string literals
+
+# Double-quoted string
+dqstring -> "\"" dstrchar:* "\"" {% function(d) {return d[1].join(""); } %}
+sqstring -> "'"  sstrchar:* "'"  {% function(d) {return d[1].join(""); } %}
+btstring -> "`"  [^`]:*    "`"  {% function(d) {return d[1].join(""); } %}
+
+dstrchar -> [^\"\n] {% id %}
+    | "\\" strescape {%
+    function(d) {
+        return JSON.parse("\""+d.join("")+"\"");
+    }
+%}
+
+sstrchar -> [^\\'\n] {% id %}
+    | "\\" strescape
+        {% function(d) { return JSON.parse("\""+d.join("")+"\""); } %}
+    | "\\'"
+        {% function(d) {return "'"; } %}
+
+strescape -> ["\\/bfnrt] {% id %}
+    | "u" [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] [a-fA-F0-9] {%
+    function(d) {
+        return d.join("");
+    }
+%}
+
+# From https://github.com/kach/nearley/blob/master/builtin/whitespace.ne
+_  -> wschar:* {% function(d) {return null;} %}
+__ -> wschar:+ {% function(d) {return null;} %}
+
+wschar -> [ \t\n\v\f] {% id %}
+
+
+
+3:40:51 PM - [34mdebug[39m: fromDirectory
+3:40:51 PM - [34mdebug[39m: Result of parsing: {"$class":"org.accordproject.payment.milestone.PaymentUponMilestoneContract","contractId":"3563abc8-a067-47aa-bbc1-a2879f1de066","buyer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Cat Inc."},"seller":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Dog Corp."},"firstInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"},"secondInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":4000,"currencyCode":"USD"},"thirdInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"}}
+3:40:51 PM - [34mdebug[39m: Setting clause data: {"$class":"org.accordproject.payment.milestone.PaymentUponMilestoneContract","contractId":"3563abc8-a067-47aa-bbc1-a2879f1de066","buyer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Cat Inc."},"seller":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Dog Corp."},"firstInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"},"secondInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":4000,"currencyCode":"USD"},"thirdInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"}}
+3:40:51 PM - [33mwarn[39m: A state file was not provided, initializing state. Try the --state flag or create a state.json in the root folder of your template.
+3:40:51 PM - [34mdebug[39m: Engine processing clause init with state org.accordproject.cicero.contract.AccordContractState
+3:40:51 PM - [34mdebug[39m: Engine processing request org.accordproject.payment.milestone.MilestoneReached with state org.accordproject.payment.milestone.PaymentUponMilestoneState
+3:40:51 PM - [31merror[39m: [Ergo] Enforce Error at 65:6-78:21 ''
+3:51:10 PM - [32minfo[39m: Using current directory as template folder
+3:51:10 PM - [32minfo[39m: Loading a default sample.txt file.
+3:51:10 PM - [31merror[39m: A sample.txt file is required. Try the --sample flag or create a sample.txt in the root folder of your template.
+3:52:07 PM - [32minfo[39m: Using current directory as template folder
+3:52:07 PM - [32minfo[39m: Loading a default text/sample.md file.
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:07 PM - [34mdebug[39m: loadFileBuffer
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:07 PM - [34mdebug[39m: fromDirectory
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:07 PM - [34mdebug[39m: fromDirectory
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFilesContents
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:07 PM - [34mdebug[39m: loadFileContents
+3:52:08 PM - [34mdebug[39m: fromDirectory
+3:52:08 PM - [34mdebug[39m: loadFileContents
+3:52:08 PM - [34mdebug[39m: fromDirectory
+3:52:08 PM - [34mdebug[39m: fromDirectory
+3:52:08 PM - [34mdebug[39m: loadFilesContents
+3:52:08 PM - [34mdebug[39m: loadFilesContents
+3:52:08 PM - [34mdebug[39m: loadFilesContents
+3:52:08 PM - [34mdebug[39m: loadFilesContents
+3:52:08 PM - [34mdebug[39m: loadFilesContents
+3:52:08 PM - [34mdebug[39m: loadFileContents
+3:52:08 PM - [31merror[39m: Type error (at file logic/logic.ergo line 29 col 12). Field `status' has type `String' but should have type `ContractLifecycleStatus'
+  set state PaymentUponMilestoneState {
+                                       
+TypeException: Type error (at file logic/logic.ergo line 29 col 12). Field `status' has type `String' but should have type `ContractLifecycleStatus'
+  set state PaymentUponMilestoneState {
+                                       
+    at Function._throwCompilerException (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/ergo-compiler/lib/scriptmanager.js:296:19)
+    at ScriptManager.compileLogic (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/ergo-compiler/lib/scriptmanager.js:324:31)
+    at LogicManager.compileLogicSync (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/ergo-compiler/lib/logicmanager.js:281:48)
+    at Template.validate (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/cicero-core/lib/template.js:75:30)
+    at /Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/cicero-core/lib/templateloader.js:254:16
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/cicero-core/lib/templateloader.js:16:103)
+    at _next (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/cicero-core/lib/templateloader.js:18:194)
+3:55:37 PM - [32minfo[39m: Using current directory as template folder
+3:55:37 PM - [32minfo[39m: Loading a default text/sample.md file.
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: loadFileBuffer
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: fromDirectory
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: fromDirectory
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: fromDirectory
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:37 PM - [34mdebug[39m: fromDirectory
+3:55:37 PM - [34mdebug[39m: fromDirectory
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFilesContents
+3:55:37 PM - [34mdebug[39m: loadFileContents
+3:55:38 PM - [31merror[39m: Type error (at file logic/logic.ergo line 41 col 44). This operator received unexpected arguments of type `String'  and `ContractLifecycleStatus'.
+     else throw ErgoErrorResponse{ message: "Contract state is invalid " ++ state.status };
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+TypeException: Type error (at file logic/logic.ergo line 41 col 44). This operator received unexpected arguments of type `String'  and `ContractLifecycleStatus'.
+     else throw ErgoErrorResponse{ message: "Contract state is invalid " ++ state.status };
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+    at Function._throwCompilerException (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/ergo-compiler/lib/scriptmanager.js:296:19)
+    at ScriptManager.compileLogic (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/ergo-compiler/lib/scriptmanager.js:324:31)
+    at LogicManager.compileLogicSync (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/ergo-compiler/lib/logicmanager.js:281:48)
+    at Template.validate (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/cicero-core/lib/template.js:75:30)
+    at /Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/cicero-core/lib/templateloader.js:254:16
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/cicero-core/lib/templateloader.js:16:103)
+    at _next (/Users/michaelgrover/.nvm/versions/node/v12.16.0/lib/node_modules/@accordproject/cicero-cli/node_modules/@accordproject/cicero-core/lib/templateloader.js:18:194)
+3:56:48 PM - [32minfo[39m: Using current directory as template folder
+3:56:48 PM - [32minfo[39m: Loading a default text/sample.md file.
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: loadFileBuffer
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: fromDirectory
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: fromDirectory
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: fromDirectory
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:48 PM - [34mdebug[39m: fromDirectory
+3:56:48 PM - [34mdebug[39m: fromDirectory
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFilesContents
+3:56:48 PM - [34mdebug[39m: loadFileContents
+3:56:49 PM - [34mdebug[39m: Setting clause data: {"$class":"org.accordproject.payment.milestone.PaymentUponMilestoneContract","buyer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Cat Inc."},"seller":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Dog Corp."},"firstInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"},"secondInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":4000,"currencyCode":"USD"},"thirdInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"},"contractId":"caf4e470-1f40-403d-9ef9-6d08e456e98c"}
+3:56:49 PM - [32minfo[39m:
+[33m{[39m
+  [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.payment.milestone.PaymentUponMilestoneContract[39m[33m"[39m[33m,[39m
+  [33m"[39m[32mbuyer[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.cicero.contract.AccordParty[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mpartyId[39m[33m"[39m[33m: [39m[33m"[39m[35mCat Inc.[39m[33m"[39m
+  [33m}[39m[33m,[39m
+  [33m"[39m[32mseller[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.cicero.contract.AccordParty[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mpartyId[39m[33m"[39m[33m: [39m[33m"[39m[35mDog Corp.[39m[33m"[39m
+  [33m}[39m[33m,[39m
+  [33m"[39m[32mfirstInvoiceAmount[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.money.MonetaryAmount[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mdoubleValue[39m[33m"[39m[33m: [39m[36m3000[39m[33m,[39m
+    [33m"[39m[32mcurrencyCode[39m[33m"[39m[33m: [39m[33m"[39m[35mUSD[39m[33m"[39m
+  [33m}[39m[33m,[39m
+  [33m"[39m[32msecondInvoiceAmount[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.money.MonetaryAmount[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mdoubleValue[39m[33m"[39m[33m: [39m[36m4000[39m[33m,[39m
+    [33m"[39m[32mcurrencyCode[39m[33m"[39m[33m: [39m[33m"[39m[35mUSD[39m[33m"[39m
+  [33m}[39m[33m,[39m
+  [33m"[39m[32mthirdInvoiceAmount[39m[33m"[39m[33m: [39m[33m{[39m
+    [33m"[39m[32m$class[39m[33m"[39m[33m: [39m[33m"[39m[35morg.accordproject.money.MonetaryAmount[39m[33m"[39m[33m,[39m
+    [33m"[39m[32mdoubleValue[39m[33m"[39m[33m: [39m[36m3000[39m[33m,[39m
+    [33m"[39m[32mcurrencyCode[39m[33m"[39m[33m: [39m[33m"[39m[35mUSD[39m[33m"[39m
+  [33m}[39m[33m,[39m
+  [33m"[39m[32mcontractId[39m[33m"[39m[33m: [39m[33m"[39m[35mcaf4e470-1f40-403d-9ef9-6d08e456e98c[39m[33m"[39m
+[33m}[39m
+3:57:45 PM - [32minfo[39m: Using current directory as template folder
+3:57:45 PM - [32minfo[39m: Loading a default text/sample.md file.
+3:57:45 PM - [32minfo[39m: Loading a default request.json file.
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: loadFileBuffer
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: fromDirectory
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: fromDirectory
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: fromDirectory
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:45 PM - [34mdebug[39m: fromDirectory
+3:57:45 PM - [34mdebug[39m: fromDirectory
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFilesContents
+3:57:45 PM - [34mdebug[39m: loadFileContents
+3:57:46 PM - [34mdebug[39m: Setting clause data: {"$class":"org.accordproject.payment.milestone.PaymentUponMilestoneContract","buyer":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Cat Inc."},"seller":{"$class":"org.accordproject.cicero.contract.AccordParty","partyId":"Dog Corp."},"firstInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"},"secondInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":4000,"currencyCode":"USD"},"thirdInvoiceAmount":{"$class":"org.accordproject.money.MonetaryAmount","doubleValue":3000,"currencyCode":"USD"},"contractId":"8f8e335d-757f-4f4e-99d9-cce64968da24"}
+3:57:46 PM - [33mwarn[39m: A state file was not provided, initializing state. Try the --state flag or create a state.json in the root folder of your template.
+3:57:46 PM - [34mdebug[39m: Engine processing clause init with state org.accordproject.cicero.contract.AccordContractState
+3:57:46 PM - [34mdebug[39m: Engine processing request org.accordproject.payment.milestone.MilestoneReached with state org.accordproject.payment.milestone.PaymentUponMilestoneState
+3:57:46 PM - [31merror[39m: [Ergo] Enforce Error at 65:6-78:21 ''
+4:00:12 PM - [32minfo[39m: Using current directory as template folder
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: loadFileBuffer
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: fromDirectory
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: fromDirectory
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: fromDirectory
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:12 PM - [34mdebug[39m: fromDirectory
+4:00:12 PM - [34mdebug[39m: fromDirectory
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFilesContents
+4:00:12 PM - [34mdebug[39m: loadFileContents
+4:00:13 PM - [32minfo[39m: Creating archive: payment-upon-milestone@0.2.0.cta

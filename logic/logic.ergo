@@ -1,0 +1,97 @@
+/*
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace org.accordproject.payment.milestone
+
+import org.accordproject.cicero.runtime.*
+import org.accordproject.signature.ContractSigned
+
+/**
+ * This smart clause emits a payment obligation when the contract is signed
+ */
+contract PaymentUponSignature over PaymentUponMilestoneContract state PaymentUponMilestoneState {
+  
+	/**
+	 * Sets the initial state for the clause
+	 */
+  clause init(request : Request) : Response {		
+		set state PaymentUponMilestoneState {
+			stateId: "1",
+			status: INITIALIZED
+		};
+    return Response{}
+  }
+
+	/**
+	 * When the contract is signed a payment obligation is emitted
+	 */
+  clause contractSigned(request : ContractSigned) : Response emits PaymentObligation {
+	  enforce (state.status = INITIALIZED) 
+	    else throw ErgoErrorResponse{ message: "Contract state is invalid " ++ toString(state.status) };
+		
+    emit PaymentObligation{
+			contract: contract,
+			promisor: some(contract.buyer),
+			promisee: some(contract.seller),
+			deadline: none,
+			amount: contract.firstInvoiceAmount,
+			description: contract.buyer.partyId ++ " and  " ++ contract.seller.partyId ++ " have signed this letter of engagement. " ++ contract.buyer.partyId ++ " should now pay the first invoice amount, " ++ toString(contract.firstInvoiceAmount.doubleValue) ++ ", to " ++ contract.seller.partyId
+		};
+		set state PaymentUponMilestoneState {
+			stateId: "1",
+			status: INVOICE_ONE_EMITTED
+		};
+    return Response{}
+  }
+
+	  /**
+	 * Complete the contract when payment is received.
+	 */
+  clause milestoneReached(request : MilestoneReached): Response {
+
+		match request.milestoneName
+				with "Milestone 1" then 
+				  enforce (state.status = INVOICE_ONE_EMITTED);
+					emit PaymentObligation{
+						contract: contract,
+						promisor: some(contract.buyer),
+						promisee: some(contract.seller),
+						deadline: none,
+						amount: contract.secondInvoiceAmount,
+						description: contract.buyer.partyId ++ " has approved the first deliverable. " ++ contract.buyer.partyId ++ " should now pay the second invoice amount, " ++ toString(contract.secondInvoiceAmount.doubleValue) ++ ", to " ++ contract.seller.partyId
+					};
+					set state PaymentUponMilestoneState {
+						stateId: state.stateId,
+						status: INVOICE_TWO_EMITTED
+				};
+				return Response{}
+			with "Milestone 2" then
+					enforce (state.status = INVOICE_TWO_EMITTED);
+					emit PaymentObligation {
+						contract: contract,
+						promisor: some(contract.buyer),
+						promisee: some(contract.seller),
+						deadline: none,
+						amount: contract.thirdInvoiceAmount,
+						description: contract.buyer.partyId ++ " has approved the final deliverable. " ++ contract.buyer.partyId ++ " should now pay the final invoice amount, " ++ toString(contract.thirdInvoiceAmount.doubleValue) ++ ", to " ++ contract.seller.partyId
+					};
+					set state PaymentUponMilestoneState {
+						stateId: state.stateId,
+						status: COMPLETED
+  				};
+					return Response{}
+			else 
+				throw failure("Unknown milestone")
+	}
+}
